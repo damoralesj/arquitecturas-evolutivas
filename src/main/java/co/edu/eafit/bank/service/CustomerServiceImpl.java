@@ -145,7 +145,7 @@ public class CustomerServiceImpl implements CustomerService {
 	@Override
 	public Long count() {
 		// TODO Auto-generated method stub
-		return null;
+		return customerRepository.count();
 	}
 
 }
